@@ -1,0 +1,67 @@
+.basic{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+.single{
+    width:300px;
+    height:120px;
+    background-image:url(https://anhdepfree.com/wp-content/uploads/2018/10/hinh-nen-trang-dep-nhat-06.jpg);
+    color:#111;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    text-decoration:none;
+  }
+  
+  
+  
+  
+  
+  
+  .video1{
+    background-image:url(https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/a/9/1/c/a91c3238c5c64d0e365e1a9e7d338ff8.jpg);
+    width:100px;
+    height:100px;
+    background-size:100px;
+    background-position:center;
+    transition:all 0.3s;
+    transition-timing-function:linear;
+    border-radius:200px;
+    outline:none;
+    
+  }
+  .video1 .background2{
+    height:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center; 
+    background-color:rgba(0,0,0,0.5);
+    
+    transition:background-color 0.5s;
+    opacity:0;
+    border-radius:100px;
+    
+  }
+  
+  .single:hover .video1{
+   background-size:110px;
+   
+  }
+  .video1:hover {
+   background-size:110px;
+   
+  }
+  .video1:hover .background2{
+    opacity:1;
+  
+  }
+  
+  

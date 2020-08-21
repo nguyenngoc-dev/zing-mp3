@@ -1,0 +1,44 @@
+ul{
+    list-style:none;
+  }
+  
+  
+  .menu{
+    list-style:none;
+    display:flex;
+    margin-left:0;
+    text-transform:uppercase;
+    justify-content: space-between;
+    
+  }
+  .menu li a{
+    margin:0px 5px;
+    text-decoration:none;
+    color:black;
+  }
+  .menu li a:hover{
+    color:blue;
+  }
+  .dropdown .include{
+    
+    display:flex;
+    position:absolute;
+    width:300px;
+    left:5%;
+    top:100%;
+    background-color:#eee;
+    border-radius:10px;
+    visibility:hidden;
+  }
+  .dropdown .include li {
+    
+    left:0;
+    padding:8px 15px;
+    background-color:#ddd;
+   
+   
+  }
+  .include,.dropdown:hover .include
+  {
+    visibility:visible;
+  }

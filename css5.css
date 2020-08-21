@@ -1,0 +1,21 @@
+.footer{
+    color:#999;
+  }
+  .grade1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  .grade2 ul{
+     display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .grade2 li a{
+    margin-right:25px;
+    color:#999;
+  }
+  .grade2 li a:hover{
+    color:blue;
+  }

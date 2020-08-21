@@ -1,0 +1,52 @@
+.list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+
+
+
+
+
+
+
+.video{
+    background-image:url(https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/a/9/1/c/a91c3238c5c64d0e365e1a9e7d338ff8.jpg);
+    width:18%;
+    height:150px;
+    background-size:100%;
+    background-position:center;
+    transition:all 0.3s;
+    transition-timing-function:linear;
+   
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+  }
+  .video .background1{
+    height:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center; 
+    background-color:rgba(0,0,0,0.5);
+    
+    transition:background-color 0.5s;
+    opacity:0;
+    border-radius: 5px;
+
+    
+  }
+  
+  
+  .video:hover {
+   background-size:210px;
+   
+  }
+  .video:hover .background1{
+    opacity:1;
+  
+  }
+  
+  
